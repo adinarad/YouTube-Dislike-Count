@@ -1,6 +1,6 @@
 # Youtube Dislike Count
 A Chrome extension that adds the dislikes:thumbsdown: count back to your [YouTube](https://www.youtube.com/).
-> This extension uses YouTube Data API to get the dislikes count.
+> This extension uses YouTube Data API to get the dislikes count. Add your API Key to use the extension.
 
 [<img src="screenshots/youtube-dislikes-count.png">](https://youtu.be/CaaJyRvvaq8)
 
