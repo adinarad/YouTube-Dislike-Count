@@ -116,11 +116,11 @@ async function showDislikes() {
 
     if (!dislikes)
         return;
-    console.log("dislikes = " + dislikes);
+
     // Update the dislikes count, next to dislike button.
     let buttonsDivElement = document.getElementById("top-level-buttons-computed");
     let dislikeElement = buttonsDivElement.children[1].querySelector("#text");
     dislikeElement.innerHTML = convertToReadableFormat(Number(dislikes));
 }
-console.log("running");
+
 showDislikes();
